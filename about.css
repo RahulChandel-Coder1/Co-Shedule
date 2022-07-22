@@ -51,9 +51,11 @@
 #slides{
    
     width: 100%;
- background-color: RGB(248, 164, 120);
- 
-   
+   background-color: RGB(248, 164, 120);
+   height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -66,7 +68,7 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
-  margin-left:10px;
+  margin-left:100px;
 }
 
 /* Hide the images by default */
@@ -147,3 +149,152 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+/* ***********core value*********** */
+#core-main{
+  height: 1330px;
+  width: 100%;
+  margin-top: 50px;
+  background-color: RGB(248, 248, 248);
+  padding-top: 80px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  
+ }
+ #head{
+  margin: auto;
+  height: 130px;
+  width: 55%;
+  text-align: center;
+  margin-bottom: 50px;
+ }
+ #head h1{
+  font-size:40px ;
+  margin-bottom: -5px;
+ }
+ 
+ #values>div{
+  height: 140px;
+  width: 55%;
+   margin: auto;
+  display: flex;
+  margin-bottom: 2px;
+ }
+img{
+  margin-right: 30px;
+  height: 90px;
+  width: 95px;
+}
+#values h2{
+  margin-bottom: -7px;
+  color: #4b4b4b;
+}
+#core-main p{
+  font-size: larger;
+  line-height: 28px;
+  color:#617172;
+}
+
+
+
+
+
+
+/* ****** 3 images section******** */
+#main-three-images{
+  height: 370px;
+  width: 85%;
+  margin:auto;
+  display: flex;
+  margin-bottom: 30px;
+}
+#main-three-images>:nth-child(1)>img{
+  height: 100%;
+  width: 500px;
+ margin-left: 10px;
+}
+#main-three-images>:nth-child(2)>img{
+  height: 100%;
+  width: 290px;
+  
+}
+#main-three-images>:nth-child(3)>img{
+  height: 100%;
+  width: 290px;
+}
+
+/* **********saying division***** */
+#saying{
+  height: 130px;
+  width: 55%;
+  margin: auto;
+ text-align: center;
+ margin-top: 80px;
+ padding-top: 10px;
+ background-color: #f8f8f8;
+ color: RGB(170, 170, 170);
+}
+
+/* ******meeet team**** */
+#meet-team{
+  height: 150px;
+  width: 85%;
+  margin: auto;
+  margin-top: 100px;
+}
+#meet-team>h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: RGB(75, 75, 75);
+  font-size: 42px;
+  
+}
+#meet-team>h2{
+  color: RGB(75, 75, 75);
+
+}
+
+
+/* *********team images*** */
+#team-container{
+  height:1000px;
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 50px;
+  
+}
+#team-container img{
+  height: 150px;
+  width: 150px;
+  margin-bottom: -10px;
+  
+}
+#team-container h4{
+  margin-bottom: -10px;
+  font-size: 15px;
+  color: RGB(75, 75, 81);
+}
+#team-container p{
+  color:RGB(98, 98, 98);
+}
+
+
+/* ********bottom lines***** */
+#bottom-lines{
+  width: 85%;
+  margin: auto;
+  color: RGB(75, 75, 75);
+  
+}
+
+#bottom-lines h2:hover{
+  color: rgb(187, 72, 30);
+}
+
+
