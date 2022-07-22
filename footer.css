@@ -72,9 +72,18 @@ h3{
    color: rgb(54, 53, 53);
    font-weight: 700;
 }
-
 hr{
-    color: aqua;
+    margin: 10px 100px 0px 0px;
+
 }
+
+/* ***********core value*********** */
+#core-main{
+    height: 900px;
+    width: 100%;
+    border: 1px solid red;
+    
+}
+
 
 
