@@ -297,4 +297,36 @@ img{
   color: rgb(187, 72, 30);
 }
 
+/* ***********last div** */
+#last-main{
+  width: 100%;
+  height: 390px;
+  margin-top: 60px;
+  background-color:RGB(244, 132, 98);
+  padding-top: 20px;
+}
+#last-main>div{
+  height: 100%;
+  margin: auto;
+  width: 50%;
+  color: RGB(255, 255, 255);
+  text-align: center;
+ 
+}
+#last-main h1{
+ font-size: 43px;
+ 
+}
+#last-main p{
+  font-size: 20px;
+}
+#last-main button{
+  height: 50px;
+  width: 200px;
+  color: chocolate;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 5px 5px 5px 5px;
+}
+
 
