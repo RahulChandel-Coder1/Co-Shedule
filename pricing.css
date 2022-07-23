@@ -1,0 +1,516 @@
+body{
+    padding: 0%;
+  
+  }
+  
+  #note {
+    display: none;
+    position: relative;
+    font-family: 'Mukta', sans-serif;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background:blue;
+    text-align: center;
+    line-height: 2.5;
+    overflow: hidden; 
+    -webkit-box-shadow: 0 0 5px black;
+    -moz-box-shadow:    0 0 5px black;
+    box-shadow:         0 0 5px black;
+  }
+  #free
+  {
+    height: 33px;
+    background-color: rgb(243,126,93);
+    color: white;
+    width: 200px;
+    border-radius: 3px;
+    border: none;
+    margin-left: 10px;
+  }
+  #close
+  {
+    float: right;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: blue;
+    border: none;
+    margin-right: 10px;
+  }
+  #logo_div>img
+  {
+  
+     height: 40px;
+     margin-left: 10px;
+  }
+  #logo_div
+  {
+      margin-top: 10px;
+      width: 100%;
+      
+  }
+  #main_page{
+      background-color: rgb(248,248,248);
+      width:100%;
+      font-family: 'Mukta', sans-serif;
+      height:fit-content;
+      justify-content: center;
+      margin-top: -9px;
+  }
+  #organiged
+  {
+  margin-top: 40px;
+  font-family: 'Mukta', sans-serif;
+  font-size: 27px;
+  text-align:  center;
+  color: rgb(36, 36, 36);
+  }
+  #organiged>p
+  {
+      
+      font-size:17px ;
+      margin-top: -39px;
+      color: rgb(89, 92, 95);
+  }
+  .animate__animated.animate__bounce {
+      --animate-duration: 4s;
+  }
+  #bill_bar
+  {
+      margin-top: 40px;
+      height: 40px;
+      width: 100%;
+      font-family: 'Mukta', sans-serif;
+      font-size: 17px;
+  }
+  #bill_annually
+  {
+  width: 35%;
+  height: 40px;
+  text-align: left;
+  float: left;
+  margin-left: 10px;
+  
+  }
+  #bill_annually>p
+  {
+      margin-top: -7px;
+      margin-left: 2px;
+      font-weight: bold;
+      color: rgb(243,126,93) ;
+  }
+  #bill_monthly
+  {
+  width: 46.5%;
+  height: 40px;
+  text-align: right;
+  margin-right: 10px;
+  float: left;
+  }
+  #toggle
+  {
+  float: left;
+  
+  }
+  
+  .switch {
+      position: relative;
+      display: inline-block;
+      width: 53px;
+      height: 28px;
+    }
+    
+    .switch input { 
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+    
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+    
+    input:checked + .slider {
+      background-color: rgb(243,126,93);
+    }
+    
+    input:focus + .slider {
+      box-shadow: 0 0 1px rgb(243,126,93);
+    }
+    
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+    
+    /* Rounded sliders */
+    .slider.round {
+      border-radius: 34px;
+    }
+    
+    .slider.round:before {
+      border-radius: 50%;
+    }
+    #Marketing
+    {
+        display: grid;
+        grid-template: "a b";
+        margin-top: 100px;
+        justify-content: center;
+        width: 100%;
+        font-size: large;
+        color: rgb(75, 75, 75);
+    }
+    #calender
+    {
+     grid-area: a;
+     height: fit-content ;
+     width:450px ;
+     background-color:white;
+     margin-right: 30px;
+     border-radius: 2px;
+     text-align: center;
+     margin-bottom: 20px;
+  
+    }
+    #suite
+    {
+    grid-area: b;
+    height: fit-content ;
+    width: 450px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+  
+    }
+    #calender_img>img
+    {
+        height: 55px;
+        width: 55px;
+        margin-top: -25px;
+        box-shadow: gray;
+        margin-bottom: 10px;
+       
+        
+    }
+  
+    #suite_img
+    {
+      height: 55px;
+      width: 55px; 
+      justify-self: center;
+      margin: auto;
+      margin: auto;
+      
+    }
+    #suite_img>img
+    {
+      margin-top: -25px;
+      box-shadow: gray;
+    }
+    .animate__animated.animate__fadeInDown {
+      --animate-duration: 2s;
+    }
+    .mar_cal
+    {
+        width: 70%;
+        height: 400px;
+        margin-left: 15%;
+    }
+    .mar_cal>p
+    {
+        font-size: 17px;
+    }
+    #price>h1
+    {
+        
+        font-size: 50px;
+    }
+    #price>p{
+      margin-top: -40px;
+  
+    }
+    .mar_cal>h4{
+  
+      margin-top: -20px;
+    }
+    .mar_cal>h5
+    {
+        font-size: 34px;
+        margin-top: 110px;
+    }
+    #button
+    {
+        width: 80%;
+        height: 40px;
+        background-color:rgb(243,126,93) ;
+        color: white;
+        font-weight: bold;
+        border:none;
+        border-radius: 3px;
+        margin-top: 35px;
+    }
+    #button:hover
+    {
+      background-color: rgb(240, 86, 44);
+    }
+    #button2
+    {
+      width: 80%;
+      height: 40px;
+      background-color: white ;
+      color: rgb(243,126,93);
+      font-weight: bold;
+       background-color: white; 
+       border: 2px solid rgb(243,126,93);
+      border-radius: 3px;
+     
+    }
+    #button2:hover
+    {
+    background-color: rgb(240, 86, 44) ;
+    color: white;
+    cursor: alias;
+    }
+  
+    .tooltip {
+      margin-top: 20px;
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+    }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 300px;
+      background-color:white;
+      color: grey;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      font-size: 15px;
+      -moz-box-shadow:    3px 3px 5px 3px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 3px #ccc;
+    box-shadow:         3px 3px 5px 3px #ccc;
+      
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      top: 100%;
+      left: 50%;
+      margin-left: -60px;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
+    #content
+    {
+      width: 70%;
+      margin-left: 110px;
+      font-size: 16px;
+    
+    }
+    #content>p
+    {
+     text-align: left;
+    }
+    .a
+    {
+      font-size: medium;
+      color: grey;
+    }
+    #feature
+    {
+      border: none;
+      background-color: white;
+      font-weight: bold;
+      color: grey;
+      margin-right: 20px;
+      margin-top: 60px;
+      font-size: 15px;
+      font-family: 'Mukta', sans-serif;
+    }
+    #roi
+    {
+      border: none;
+      background-color: white;
+      font-weight: bold;
+      color: rgb(243,126,93) ;
+      margin-right: 20px;
+      margin-top: 17px; 
+      font-size: 15px;
+      font-family: 'Mukta', sans-serif;
+    }
+    #faq
+    {
+      font-family: 'Merriweather', serif;
+      text-align: center;
+      font-size: 19px;
+      color: rgb(165, 165, 165);
+      width: 60%;
+      margin: auto;
+      margin-top: 100px;
+    }
+    #image>img
+    {
+      margin-top: 20px;
+      height: 100px;
+      width: 100px;
+      border-radius: 50px;
+    }
+    #question
+    {
+      width: 80%;
+      margin: auto;
+      font-family: 'Mukta', sans-serif;
+      background-color: white;
+    }
+    .ans
+    {
+      width: 30%;
+      margin-right: 3%;
+      float: left;
+  
+    }
+    @media(max-width: 900px)
+    {
+      #Marketing
+      {
+        grid-template: "a"
+        "b";
+      }
+      #suite
+    {
+   margin-top: 100px;
+  
+    }
+    .a{
+      display: none;
+    }
+    #content
+    {
+      display: none;
+    }
+    .tooltip
+    {
+      display: none;
+     
+    }
+    }
+    .link
+    {
+      color: rgb(243,126,93);
+    }
+  
+    /* footer */
+    .cont {
+      width: 100%;
+      background-color: rgb(248,248,248);
+  }
+  
+  #footer, .fbottom {
+      font-family: "MuseoSans-300",sans-serif;
+      font-size: 14px;
+      width: 80%;
+      margin: auto;
+      color: rgb(152,152,152);
+      display: grid;
+      padding: 40px;
+      gap: 3%;
+      grid-template-areas: "fsignup fproducts fwhy fcompany" 
+      ". fresources fguides ftools"
+      ;
+  }
+  .fboldfont {
+      color: rgb(75,75,75);
+      font-size: 17px;
+      margin: 5px 0;
+      font-weight: bold;
+  
+      
+  }
+  #footer a, .fbottom a {
+      text-decoration: none;
+      color: rgb(152,152,152);
+  }
+  #footer p {
+      margin: 10px 0;
+  }
+  .fsignup {
+      grid-area: fsignup;
+  }
+  
+  .fproducts {
+      grid-area: fproducts;
+  }
+  .fwhy {
+      grid-area: fwhy;
+  }
+  .fcompany {
+      grid-area: fcompany;
+  }
+  .fresources {
+      grid-area: fresources;
+  }
+  .fguides {
+      grid-area: fguides;
+  }
+  .ftools {
+      grid-area: ftools;
+  }
+  .fsignup img {
+      width: 50px;
+      margin: 0px 0px 20px 0px;
+  
+  }
+  .fproducts img {
+      width: 20px;
+      border-radius: 1px;
+      margin-right: 10px;
+  }
+  .flex {
+      display: flex;
+  }
+  #footer hr {
+      border: rgb(241, 241, 241) solid 1px;
+     
+  }
+  .fbottom a {
+      text-decoration: underline;
+  }
+  .icon {
+  margin-left: 40%;
+      gap: 8px;
+  }
+  .icon img {
+      width: 25px;
+      border-radius: 50%;
+  }
+  #footer a:hover{
+      color: #776B64;
+  }
+  /* end footer */

@@ -1,0 +1,251 @@
+body{
+    background-color: rgba(251,252,253,255);
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Rubik', sans-serif;
+}
+#top {
+    height: 50px;
+    margin-top: 25px;
+    text-align: center;
+}
+#top > img {
+    height: 100%;
+    width: 12%;
+}
+#middle {
+    height: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#middle > h1 {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+#middle > p {
+    margin-top: 0.2%;
+}
+#bottom {
+    width: 60%;
+    box-shadow: 0px 0px 5px rgb(209, 207, 207); 
+    margin:auto;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    max-height:580px;
+}
+#left {
+    width: 50%;
+    padding: 3%;
+    border: 0.001px solid rgb(226, 222, 222); 
+}
+#left > h2 {
+    font-size: 30px;
+}
+#right {
+    width: 50%;
+    padding: 3%; 
+}
+#left > img {
+    width: 20%;
+}
+.grey {
+    color: rgb(110, 109, 109);
+}
+#month {
+    display: flex;
+    justify-content: space-between;
+}
+#month > button{
+    width: 40px;
+    border:none;
+    height: 45px;
+    background-color: white;
+}
+.days{
+    display: flex;
+    justify-content: space-between;
+}
+.days > p {
+    font-size: 12px;
+}
+#cal {
+    display: grid;
+    grid-template-columns: 13% 13% 13% 13% 13% 13% 13%;
+    grid-template-rows: 40px 40px 40px 40px 40px;
+    gap: 2%
+}
+#cal > div {
+    width:80%;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10%
+}
+#cal > div:nth-child(n+13) {
+    background-color: rgba(242,250,255,255);
+    color: rgb(17, 162, 247);
+    font-size: 19px;
+}
+#cal > div:hover:nth-child(n+13){
+    background-color: #c4e9ff;
+}
+.lgrey {
+    color: #9e9fa2;
+   
+}
+.dgrey {
+    color: rgb(90, 89, 89);
+}
+#time {
+    margin-top:20%;
+    width: 60%;
+    height: 40px;
+    background-color: none;
+}
+#low {
+    margin-top: 100px;
+    background-color: white;
+    text-align: center;
+    padding:2%
+}
+#pics > img{
+    width: 12%;
+    margin: 10px
+}
+#pics2 > img {
+    width: 6%;
+    margin: 10px
+}
+#divnew {
+    display: flex;
+    flex-direction: column;
+}
+#result > div > .subs{
+    text-align: center;
+    display: flex;
+    text-align: right;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+    padding-top: 5%;
+    height: 50px;
+    margin-left: 8%;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #c4e9ff;
+    color: rgb(17, 162, 247);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+#shrink{
+    width: 50%;
+    margin-left: 20px;
+    background-color: darkslategray;
+    color: white;
+}
+.expand{
+    width: 120px;
+    text-align: center;
+    height: 50px;
+    margin-left: 5px;
+    background-color: rgb(17, 162, 247);
+    color: white;
+    display: block;
+}
+#inp {
+    display: flex;
+}
+#secondright {
+    margin-left: 5%;
+    margin-Top: 1%;
+    width: 70%;
+}
+#bottom2 {
+    width: 80%;
+    box-shadow: 0px 0px 5px rgb(209, 207, 207); 
+    margin:auto;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    height:580px;
+}
+#left2 {
+    width: 30%;
+    padding: 3%;
+    border: 0.001px solid rgb(226, 222, 222); 
+}
+#secondright > label {
+    font-size: 12px;
+    font-weight: 600;
+}
+#secondright > input {
+    height:40px;
+    width: 60%;
+    border-radius: 2px;
+    border: 0.5px solid lightslategrey
+}
+#guests {
+    height:32px;
+    border: 0.5px solid rgb(17, 162, 247);
+    color: rgb(17, 162, 247);
+    background-color: white;
+    border-radius: 5px;
+    width: 16%;
+}
+#guests:hover{
+    background-color:rgb(222, 239, 248) ;
+}
+#inp{
+    border: 0.5px solid lightslategrey;
+    width: 60%;
+    height: 40px;
+}
+#inp > img {
+    width: 25px;
+    height: 18px;
+    margin: 10px
+}
+#nine{
+    margin-top:2.2%;
+}
+#inp > input {
+    border: "none";
+    width:85%
+}
+#done {
+    height:40px;
+    border: none;
+    background-color: rgb(17, 162, 247);
+    color: white;
+    border-radius: 5px;
+    width: 25%;
+}
+#booking
+{
+    color: rgb(22, 206, 206);
+    font-weight: 700;
+    font-size: 18px ;
+}
+#back {
+    background: white;
+    width: 45px;
+    border-radius: 50%;
+    height: 45px;
+    font-size: 26px;
+    color: rgb(17, 162, 247);
+    border: 0.5px solid lightgray;
+    outline: none;
+}
+#back:hover{
+    background-color: #c4e9ff;
+}
+.grayicon {
+    width: 20px;
+    margin-right: 7px;
+}
+.disflex {
+    display: flex;
+   
+}
