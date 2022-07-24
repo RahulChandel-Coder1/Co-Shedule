@@ -1,0 +1,23 @@
+#confirmedpop {
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 35%;
+    width: 500px;
+    background-color:white;
+    text-align: center;
+    border-radius: 8px;
+    border: rgb(219, 217, 217) solid 1px;
+    padding: 30px;
+}
+.pcheckmark {
+    width: 150px;
+}
+#buttonclose {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border: none;
+    background: white;
+    color: red;
+}
