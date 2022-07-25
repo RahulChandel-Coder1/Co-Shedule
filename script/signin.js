@@ -5,7 +5,7 @@ var localpass;
 window.onload = function () {
     var form = document.getElementById("form1");
     form.addEventListener("submit", formSignin);
-   
+  
     var user = localStorage.getItem("localuser");
     user = JSON.parse(user);
     localemail = user[0].email;
@@ -15,6 +15,7 @@ window.onload = function () {
 
 function formSignin(e) {
     e.preventDefault()
+    window.location.href="index.html";
     var email1 = document.getElementById("email").value;
     var pass = document.getElementById("password").value;
     var errormsg1 = document.getElementById("errormsg");
